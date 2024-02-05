@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+}
+
+.nav #icon,#content,#login,#category {
+    margin-top: -3px;
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica;
+    float: left;
+    padding: 0.5rem 1rem;
+    list-style: none;
+    color: #2762B2;
+}
+
+#content a , #icon a, #login a ,#category a{
+    padding: 15px;
+}
+.nav #icon {
+    margin-top: -7px;
+}
+li a {
+    color: #2762B2;
+    text-decoration: none;
+}
+
+.nav {
+    display: block;
+}
+
+#icon a{
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#login a:hover, #content a:hover, #category a:hover {
+    float: none;
+    color: #88b9f9;
+}
+
+#login {
+    margin-top: -2px;
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+.dropdown .drop {
+    display: block;
+    padding: 10px;
+    background: transparent;
+
+}
+
+.dropdown {
+    color: black;
+    background-color: white;
+    list-style: none;
+    text-align: left;
+    float: none;
+    display: none;
+    margin-top: 50px;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 0px 0px 1px #224d8461;
+    padding: 10px ;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+#category:hover .dropdown {
+    display: block;
+    z-index: 999;
+
+}
+
+#search {
+    margin-top: 67px;
+    margin-left: 70px;
+    border: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    display: absolute;
+    width: 1235px;
+    height: 200px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 1px #224d8461;
+}
+
+.table_cate td {
+    padding: 10px;
+}
+
+#booky1 {
+    background: linear-gradient(90deg,#2762B2,#fc00ff);
+    width: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 78px;
+}
+
+#booky2 {
+    background: linear-gradient(90deg,#2762B2,#fc00ff);
+    width: 40%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -32px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.5px;
+    margin-left: 80px;
+    
+}
+
+input {
+    border-radius: 20px;
+    padding: 2px 2px;
+    margin-left: 78px;
+    color: #2762B2;
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#news {
+    margin-left: 421px;
+    margin-top: -127px;
+    max-width: 50%;
+}
