@@ -28,7 +28,7 @@ public abstract class Game {
         this.numOfPlayers = numOfPlayers;
 
     }
-eqwewqeqweweqewreerewwrwrwre
+eqwewqeqweweqewreerewwrwrwrewewqweweqeqwwqqw
     public String getName() {
         return gameName;
     }
