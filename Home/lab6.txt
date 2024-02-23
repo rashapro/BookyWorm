@@ -25,7 +25,8 @@ public abstract class Game {
     }
 
     public void setNumOfPlayers(int numOfPlayers) {
-        this.numOfPlayers = numOfPlayers;
+        this.numOfPlayers = numOf
+        ewrweewrerwerePlayers;
 
     }
 eqwewqeqweweqewreerewwrwrwrewewqweweqeqwwqqw
