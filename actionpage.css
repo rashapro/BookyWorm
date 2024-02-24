@@ -1,34 +1,72 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+    background:#C6DCBA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+nav {
+    background-color: #EAECCC;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
-.container {
-    width: 80%;
-    margin: 20px auto;
+
+nav .navbar{
+    padding: 0 30px;
+    max-width: 1250px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
 }
-.book {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.logo a {
+    color: #12372A;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
 }
-.book img {
-    width: 100px;
-    float: left;
-    margin-right: 20px;
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #FBFADA;
+    border: 1px solid #12372A;
+    z-index: 1;
 }
-.book h2 {
-    margin-top: 0;
+.dropdown li {
+    display: block;
 }
-.book p {
-    margin: 5px 0;
+.nav-links li:hover .dropdown {
+    display: block;
+}
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: #436850;
+    text-decoration: none;
+}
+.dropdown a:hover {
+    background-color: #BBC3A4;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 10px;
+}
+.nav-links a {
+    color: #12372A;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: white;
 }

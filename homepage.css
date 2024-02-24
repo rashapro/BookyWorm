@@ -22,36 +22,11 @@ nav .navbar{
     width: 100%;
 
 }
-nav .navbar{
-    padding: 0 30px;
-    max-width: 1250px;
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
-
-}
 .logo a {
     color: #12372A;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
-}
-.nav-links {
-    list-style-type: none;
-    display: flex;
-}
-.nav-links li {
-    margin: 0 10px;
-}
-.nav-links a {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-.nav-links a:hover {
-    color: #BBC3A4;
 }
 .dropdown {
     display: none;
@@ -87,6 +62,8 @@ nav .navbar{
 }
 .nav-links a {
     color: #12372A;
+    font-size: larger;
+    font-weight: 500;
     text-decoration: none;
     transition: color 0.3s ease;
 }

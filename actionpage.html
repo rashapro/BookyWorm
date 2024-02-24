@@ -3,36 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Web Page</title>
+    <title>Action | Category</title>
     <link rel="stylesheet" href="actionpage.css">
 </head>
-<header>
-    <h1></h1>
-</header>
+<body>
+    <nav>
+        <div class="navbar">  
+            <div class="logo"><a href="#">BOOKY WORM</a></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Category</a>
+                    <ul class="dropdown">
+                        <li><a  target="_blank" href="actionpage.html">Action</a></li> 
+                        <li><a  target="_blank" href="adventurepage.html">Adventure</a></li> 
+                        <li><a target="_blank" href="comedypage.html">Comedy</a></li>  
+                        <li><a target="_blank" href="drama.html">Drama</a></li> 
+                        <li><a target="_blank" href="fantasypage.html">Fantasy</a></li> 
+                        <li><a target="_blank" href="historicalpage.html">Historical</a></li> 
+                        <li><a target="_blank" href="horrorpage.html">Horror</a></li> 
+                        <li><a target="_blank" href="lightnovel.html">Light Novel</a></li> 
+                        <li><a target="_blank" href="romancepage.html">Romance</a></li> 
+                        <li><a target="_blank" href="scifipage.html">Sci-Fi</a></li> 
+                        <li><a  target="_blank"href="sport.html">Sport</a></li>
+                        <li><a target="_blank" href="allpage.html">All</a></li> 
 
-<div class="container">
-    <div class="book">
-        <img src="book1.jpg" alt="Book Cover">
-        <div class="details">
-            <h2>Book Title</h2>
-            <p>Author: Author Name</p>
-            <p>Genre: Genre</p>
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula justo sit amet felis pretium hendrerit.</p>
-        </div>
-    </div>
-    <div class="book">
-        <img src="book2.jpg" alt="Book Cover">
-        <div class="details">
-            <h2>Book Title</h2>
-            <p>Author: Author Name</p>
-            <p>Genre: Genre</p>
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula justo sit amet felis pretium hendrerit.</p>
-        </div>
-    </div>
-    <!-- Add more book recommendations here -->
-</div>
+                    </ul>
+                </li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
 
+        </div>
+    </nav>
+    <div class="container">
+        <div class="book-info">
+            <img src="book_cover.jpg" alt="Book Cover">
+            <div>
+                <h2>Title of the Book</h2>
+                <p>Author: Author Name</p>
+                <p><a href="shopping_link" target="_blank">Shop Now</a></p>
+            </div>
+        
+    </div>
+    <style>
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #FBFADA;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .book-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .book-info img {
+        max-width: 150px;
+        margin-right: 20px;
+    }
+    .book-info h2 {
+        margin: 0;
+    }
+    .book-info p {
+        margin: 5px 0;
+    }
+</style>
+
+    
 </body>
+
 </html>
 
 
