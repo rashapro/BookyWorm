@@ -5,10 +5,9 @@ body {
 }
 
 nav {
-    background-color: pink;
+    background-color: #165A54;
     color: white;
     display: flex;
-    align-items: center;
     padding: 10px 20px;
 }
 
@@ -23,14 +22,13 @@ nav .navbar {
 }
 
 .logo a {
-    color: #12372A;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 }
 
 .logo a {
-    color: #12372A;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -38,7 +36,7 @@ nav .navbar {
 .dropdown {
     display: none;
     position: absolute;
-    background-color: #FBFADA;
+    background-color: #797b7c;
     border: 1px solid #12372A;
     z-index: 1;
 }
@@ -51,11 +49,11 @@ nav .navbar {
 .dropdown a {
     display: block;
     padding: 10px;
-    color: #436850;
+    color: #91Da73;
     text-decoration: none;
 }
 .dropdown a:hover {
-    background-color: #BBC3A4;
+    background-color: #91Da73;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -69,18 +67,19 @@ nav .navbar {
     margin: 0 10px;
 }
 .nav-links a {
-    color: #12372A;
-    font-size: larger;
+    color: #ffffff;
+    font-size: 16px;
     font-weight: 500;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 .nav-links a:hover {
-    color: white;
+    color: #91Da73;
 }
 
 
 #login_dropdown {
+    margin-left: -350px;
     margin-top: 35px;
     display: none;
     position: absolute;
@@ -174,8 +173,7 @@ nav .navbar {
 
 .search{
     --padding: 5px;
-
-    width: max-content;
+    margin-left: 500px;
     display: flex;
     align-items: center;
     padding: var(--padding);
@@ -198,4 +196,8 @@ nav .navbar {
 .search-input::placeholder,
 .search-icon{
     color: #12372A;
+}
+
+#sign-up {
+  font-weight: bolder;
 }
