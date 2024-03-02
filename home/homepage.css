@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    background: #405b4f;
+    background: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
-    background: rgb(63,109,14);
-background: radial-gradient(circle, rgba(63,109,14,1) 0%, rgba(0,0,0,1) 100%);
+    background: rgb(75,141,171);
     color: white;
     display: flex;
     padding: 10px 20px;
