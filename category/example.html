@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dropdown Login</title>
-  <link rel="stylesheet" href="example.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scal=1.0">
+        <title>BOOKY WORM</title>
+        <link rel="stylesheet" href="example.css">
 
-<nav>
-  <div class="menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropbtn">Login</a>
-        <div class="dropdown-content">
-          <form>
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
-            <button type="submit">Login</button>
-          </form>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">  
+                <div class="logo"><a href="#">BookyWorm</a></div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Category</a>
+                        <ul class="dropdown">
+                            <li><a target="_blank" href="/category/actionpage.html">Action</a></li> 
+                            <li><a target="_blank" href="/category/adventurepage.html">Adventure</a></li> 
+                            <li><a target="_blank" href="/category/comedypage.html">Comedy</a></li>  
+                            <li><a target="_blank" href="/category/drama.html">Drama</a></li> 
+                            <li><a target="_blank" href="/category/fantasypage.html">Fantasy</a></li> 
+                            <li><a target="_blank" href="/category/historicalpage.html">Historical</a></li> 
+                            <li><a target="_blank" href="/category/horrorpage.html">Horror</a></li> 
+                            <li><a target="_blank" href="/category/lightnovel.html">Light Novel</a></li> 
+                            <li><a target="_blank" href="/category/romancepage.html">Romance</a></li> 
+                            <li><a target="_blank" href="/category/scifipage.html">Sci-Fi</a></li> 
+                            <li><a target="_blank"href="/category/sport.html">Sport</a></li>
+                            <li><a target="_blank" href="/category/allpage.html">All</a></li> 
 
-</body>
+                        </ul>
+                    </li>
+                    <li><a href="#">About us</a></li>
+                    <li>
+                        <a href="#">Login</a>
+                        <div class="dropdown-content">
+                            <form>
+                              <input type="text" placeholder="Username">
+                              <input type="password" placeholder="Password">
+                              <button type="submit">Login</button>
+                            </form>
+                          </div>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </nav>
+    </body>
+    
+
 </html>

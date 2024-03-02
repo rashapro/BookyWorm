@@ -1,38 +1,47 @@
-/* Style the navigation menu */
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar */
 nav {
   background-color: #333;
 }
 
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-.menu ul li {
-  float: left;
-}
-
-.menu ul li a {
-  display: block;
+.logo a {
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: white;
   text-decoration: none;
 }
 
-.menu ul li a:hover {
-  background-color: #111;
-}
-
-/* Dropdown Button */
+/* Style the dropdown menu */
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -42,7 +51,6 @@ nav {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content form {
   padding: 15px;
 }
