@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #EAECCC;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .navbar {
+    padding: 0 30px;
+    max-width: 1250px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.logo a {
+    color: #12372A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #FBFADA;
+    border: 1px solid #12372A;
+    z-index: 1;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.nav-links li:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: #436850;
+    text-decoration: none;
+}
+
+.dropdown a:hover {
+    background-color: #BBC3A4;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: block;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    float: left;
+}
+
+.nav-links a {
+    color: #12372A;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+
+#login_dropdown {
+    margin-top: 35px;
+    display: none;
+    position: absolute;
+    background-color: #67a872;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.login_header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 23px;
+}
+
+
+.login_icon{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.login_message { 
+    margin-top: -17px;
+    margin-bottom: 45px;
+    font-size: 16px;
+}
+
+#login_dropdown {
+    align-items: center;
+    border-radius: 6px;
+    height: 526px;
+    width: 415px;
+}
+#login_dropdown form {
+    padding: 15px;
+}
+
+#login_dropdown input[type="text"],
+#login_dropdown input[type="password"],
+#login_dropdown button {
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    margin: auto;
+    display: block;
+    padding: 10px;
+
+}
+
+#login_dropdown input[type="text"],#login_dropdown input[type="password"]  {
+    width: 349px;
+    margin-bottom: 23px;
+}
+
+#login_dropdown button[type='submit'] {
+    margin-top: 60px;
+    width: 369px;
+    background-color: #0d4623;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.forgot-password {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.forgot-password a {
+    margin-right: 8px;
+}
+
+.forgot-password a{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.dropdown-content button:hover {
+    background-color: #555;
+}
+
