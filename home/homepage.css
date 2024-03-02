@@ -37,7 +37,7 @@ nav .navbar {
 
     display: none;
     position: absolute;
-    background-color: #FBFADA;
+    background-color: #C0DBEA;
     border: 1px solid #12372A;
     z-index: 1;
 }
@@ -54,7 +54,7 @@ nav .navbar {
     text-decoration: none;
 }
 .dropdown a:hover {
-    background-color: #91Da73;
+    background-color: #E8A0BF;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -75,7 +75,7 @@ nav .navbar {
     transition: color 0.3s ease;
 }
 .nav-links a:hover {
-    color: #91Da73;
+    color: #f2ffb2;
 }
 
 
