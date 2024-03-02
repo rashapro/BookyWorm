@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    background: #ffffff;
+    background: #405b4f;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
-    background-color: #165A54;
+    background: rgb(63,109,14);
+background: radial-gradient(circle, rgba(63,109,14,1) 0%, rgba(0,0,0,1) 100%);
     color: white;
     display: flex;
     padding: 10px 20px;
@@ -34,9 +35,10 @@ nav .navbar {
     font-weight: bold;
 }
 .dropdown {
+
     display: none;
     position: absolute;
-    background-color: #797b7c;
+    background-color: #FBFADA;
     border: 1px solid #12372A;
     z-index: 1;
 }
