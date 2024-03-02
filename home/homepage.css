@@ -81,6 +81,7 @@ nav .navbar {
 
 
 #login_dropdown {
+    margin-left: -350px;
     margin-top: 35px;
     display: none;
     position: absolute;
@@ -174,8 +175,7 @@ nav .navbar {
 
 .search{
     --padding: 5px;
-
-    width: max-content;
+    margin-left: 500px;
     display: flex;
     align-items: center;
     padding: var(--padding);
@@ -198,4 +198,8 @@ nav .navbar {
 .search-input::placeholder,
 .search-icon{
     color: #12372A;
+}
+
+#sign-up {
+  font-weight: bolder;
 }
