@@ -34,7 +34,6 @@ nav .navbar {
     font-weight: bold;
 }
 .dropdown {
-    margin-top: 32px;
     display: none;
     position: absolute;
     background-color: #FBFADA;
