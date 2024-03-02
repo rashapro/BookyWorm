@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background: #ffffff;
+    background: #FDF4F5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
-    background-color: #165A54;
+    background-color: #BA90C6;
     color: white;
     display: flex;
     padding: 10px 20px;
@@ -22,7 +22,7 @@ nav .navbar {
 }
 
 .logo a {
-    color: #ffffff;
+    color: #FDF4F5;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -34,10 +34,10 @@ nav .navbar {
     font-weight: bold;
 }
 .dropdown {
+
     display: none;
     position: absolute;
-    background-color: #797b7c;
-    border: 1px solid #12372A;
+    background-color: #C0DBEA;
     z-index: 1;
 }
 .dropdown li {
@@ -53,7 +53,7 @@ nav .navbar {
     text-decoration: none;
 }
 .dropdown a:hover {
-    background-color: #91Da73;
+    background-color: #E8A0BF;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -67,104 +67,18 @@ nav .navbar {
     margin: 0 10px;
 }
 .nav-links a {
-    color: #ffffff;
+    color: #FDF4F5;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 .nav-links a:hover {
-    color: #91Da73;
-}
-
-
-#login_dropdown {
-    margin-left: -350px;
-    margin-top: 35px;
-    display: none;
-    position: absolute;
-    background-color: #67a872;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-
-.login_header {
-    display: flex;
-    flex-direction: column;
-    padding-left: 23px;
-}
-
-
-.login_icon{
-    font-size: 32px;
-    font-weight: bolder;
-    padding-top: 10px;
-}
-
-.login_message { 
-    margin-top: -17px;
-    margin-bottom: 45px;
-    font-size: 16px;
-}
-
-#login_dropdown {
-    align-items: center;
-    border-radius: 6px;
-    height: 526px;
-    width: 415px;
-}
-#login_dropdown form {
-    padding: 15px;
-}
-
-#login_dropdown input[type="text"],
-#login_dropdown input[type="password"],
-#login_dropdown button {
-    font-size: 15px;
-    border-radius: 6px;
-    border: none;
-    margin: auto;
-    display: block;
-    padding: 10px;
-
-}
-
-#login_dropdown input[type="text"],#login_dropdown input[type="password"]  {
-    width: 349px;
-    margin-bottom: 23px;
-}
-
-#login_dropdown button[type='submit'] {
-    margin-top: 60px;
-    width: 369px;
-    background-color: #0d4623;
-    color: white;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    font-weight: bolder;
-}
-
-.forgot-password {
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-
-.forgot-password a {
-    margin-right: 8px;
-}
-
-.forgot-password a{
-    color: #ffffff;
-    font-size: 15px;
+    color: #f2ffb2;
 }
 
 .dropdown-content button:hover {
-    background-color: #555;
+    background-color: #a9a9a9;
 }
 
 .search:focus-within{
@@ -172,21 +86,21 @@ nav .navbar {
 }
 
 .search{
-    --padding: 5px;
+    --padding: 1px;
     margin-left: 500px;
     display: flex;
     align-items: center;
     padding: var(--padding);
-    border-radius: 20px;
+    border-radius: 6px;
     background: #f6f6f6;
-    height: 40px;
+    height: 30px;
     width: 215px;
     transition: background 0.25s;
 }
 .search-input{
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #12372A;
+    color: #9f9f9f;
     margin-left: var(--padding);
     outline: none;
     border: none;
@@ -195,21 +109,54 @@ nav .navbar {
 }
 .search-input::placeholder,
 .search-icon{
-    color: #12372A;
-}
-
-#sign-up {
-  font-weight: bolder;
+    color: #7d7d7d;
 }
 
 .book-container{
-    background-color: paleturquoise;
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #C0DBEA;
+    border-radius: 6px;
     margin: auto;
     margin-top: 10px;
-    padding: 20px;
+    width: 1000px;
+    height: 300px;
+    color: #FDF4F5;
+    display: flex;
+    text-align: left;
+}
+.book {
+    display: flex;
+    align-items: stretch;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    background-color: #FDF4F5;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+}
+.book img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+.book-details {
+    flex-grow: 1;
+}
+.book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.book-author {
+    margin-bottom: 10px;
+}
+.book-synopsis {
+    margin-bottom: 10px;
+}
+.book-link {
+    text-decoration: none;
+    color: #FDF4F5;
+    background-color: #f2ffb2;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
