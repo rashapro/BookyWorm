@@ -36,7 +36,7 @@ nav .navbar {
 .dropdown {
     display: none;
     position: absolute;
-    background-color: #FBFADA;
+    background-color: #797b7c;
     border: 1px solid #12372A;
     z-index: 1;
 }
