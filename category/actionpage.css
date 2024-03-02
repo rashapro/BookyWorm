@@ -210,9 +210,49 @@ nav .navbar {
 
 .book-container{
     background-color: #C0DBEA;
+    border-radius: 6px;
     margin: auto;
-    width: 700px;
+    margin-top: 10px;
+    width: 1000px;
     height: 300px;
-    color: #;
-
+    color: #FDF4F5;
+    display: flex;
+    text-align: left;
+}
+.book {
+    display: flex;
+    align-items: stretch;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    background-color: #FDF4F5;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+}
+.book img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+.book-details {
+    flex-grow: 1;
+}
+.book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.book-author {
+    margin-bottom: 10px;
+}
+.book-synopsis {
+    margin-bottom: 10px;
+}
+.book-link {
+    text-decoration: none;
+    color: #FDF4F5;
+    background-color: #f2ffb2;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
