@@ -72,44 +72,6 @@ nav .navbar{
 }
 
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content form {
-    padding: 15px;
-  }
-  
-  .dropdown-content input[type="text"],
-  .dropdown-content input[type="password"],
-  .dropdown-content button {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 8px;
-  }
-  
-  .dropdown-content button {
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown-content button:hover {
-    background-color: #555;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
 
 
