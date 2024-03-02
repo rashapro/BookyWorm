@@ -29,6 +29,12 @@ nav .navbar {
     font-weight: bold;
 }
 
+.logo a {
+    color: #12372A;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 .dropdown {
     display: none;
     position: absolute;
@@ -36,39 +42,31 @@ nav .navbar {
     border: 1px solid #12372A;
     z-index: 1;
 }
-
 .dropdown li {
     display: block;
 }
-
 .nav-links li:hover .dropdown {
     display: block;
 }
-
 .dropdown a {
     display: block;
     padding: 10px;
     color: #436850;
     text-decoration: none;
 }
-
 .dropdown a:hover {
     background-color: #BBC3A4;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
 }
-
 .nav-links {
     list-style-type: none;
-    display: block;
+    display: flex;
 }
-
 .nav-links li {
     margin: 0 10px;
-    float: left;
 }
-
 .nav-links a {
     color: #12372A;
     font-size: larger;
@@ -76,7 +74,6 @@ nav .navbar {
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
 .nav-links a:hover {
     color: white;
 }
