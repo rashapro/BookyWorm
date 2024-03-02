@@ -49,7 +49,7 @@ nav .navbar {
 .dropdown a {
     display: block;
     padding: 10px;
-    color: #f2ffb2;
+    color: #91Da73;
     text-decoration: none;
 }
 .dropdown a:hover {
@@ -77,94 +77,8 @@ nav .navbar {
     color: #f2ffb2;
 }
 
-
-#login_dropdown {
-    margin-left: -350px;
-    margin-top: 35px;
-    display: none;
-    position: absolute;
-    background-color: #67a872;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-
-.login_header {
-    display: flex;
-    flex-direction: column;
-    padding-left: 23px;
-}
-
-
-.login_icon{
-    font-size: 32px;
-    font-weight: bolder;
-    padding-top: 10px;
-}
-
-.login_message { 
-    margin-top: -17px;
-    margin-bottom: 45px;
-    font-size: 16px;
-}
-
-#login_dropdown {
-    align-items: center;
-    border-radius: 6px;
-    height: 526px;
-    width: 415px;
-}
-#login_dropdown form {
-    padding: 15px;
-}
-
-#login_dropdown input[type="text"],
-#login_dropdown input[type="password"],
-#login_dropdown button {
-    font-size: 15px;
-    border-radius: 6px;
-    border: none;
-    margin: auto;
-    display: block;
-    padding: 10px;
-
-}
-
-#login_dropdown input[type="text"],#login_dropdown input[type="password"]  {
-    width: 349px;
-    margin-bottom: 23px;
-}
-
-#login_dropdown button[type='submit'] {
-    margin-top: 60px;
-    width: 369px;
-    background-color: #0d4623;
-    color: white;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    font-weight: bolder;
-}
-
-.forgot-password {
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-
-.forgot-password a {
-    margin-right: 8px;
-}
-
-.forgot-password a{
-    color: #ffffff;
-    font-size: 15px;
-}
-
 .dropdown-content button:hover {
-    background-color: #555;
+    background-color: #a9a9a9;
 }
 
 .search:focus-within{
@@ -198,15 +112,3 @@ nav .navbar {
     color: #7d7d7d;
 }
 
-#sign-up {
-  font-weight: bolder;
-}
-
-#login {
-    color:#BA90C6;
-    background-color: #FDF4F5;
-    padding: 8px;
-    border-radius: 6px;
-    align-items: end;
-    font-weight: bolder;
-}
