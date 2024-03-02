@@ -1,27 +1,34 @@
 body {
     margin: 0;
-    background:#ffffff;
+    background: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 nav {
-    background-color: #EAECCC;
+    background-color: pink;
     color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
 
-nav .navbar{
+nav .navbar {
     padding: 0 30px;
     max-width: 1250px;
     margin: auto;
     align-items: center;
-    justify-content: space-between;
     display: flex;
     width: 100%;
 
 }
+
+.logo a {
+    color: #12372A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .logo a {
     color: #12372A;
     text-decoration: none;
@@ -56,6 +63,7 @@ nav .navbar{
 .nav-links {
     list-style-type: none;
     display: flex;
+    align-items: center;
 }
 .nav-links li {
     margin: 0 10px;
@@ -69,4 +77,125 @@ nav .navbar{
 }
 .nav-links a:hover {
     color: white;
+}
+
+
+#login_dropdown {
+    margin-top: 35px;
+    display: none;
+    position: absolute;
+    background-color: #67a872;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.login_header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 23px;
+}
+
+
+.login_icon{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.login_message { 
+    margin-top: -17px;
+    margin-bottom: 45px;
+    font-size: 16px;
+}
+
+#login_dropdown {
+    align-items: center;
+    border-radius: 6px;
+    height: 526px;
+    width: 415px;
+}
+#login_dropdown form {
+    padding: 15px;
+}
+
+#login_dropdown input[type="text"],
+#login_dropdown input[type="password"],
+#login_dropdown button {
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    margin: auto;
+    display: block;
+    padding: 10px;
+
+}
+
+#login_dropdown input[type="text"],#login_dropdown input[type="password"]  {
+    width: 349px;
+    margin-bottom: 23px;
+}
+
+#login_dropdown button[type='submit'] {
+    margin-top: 60px;
+    width: 369px;
+    background-color: #0d4623;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.forgot-password {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.forgot-password a {
+    margin-right: 8px;
+}
+
+.forgot-password a{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.dropdown-content button:hover {
+    background-color: #555;
+}
+
+.search:focus-within{
+    background: #f1f1f1;
+}
+
+.search{
+    --padding: 5px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 20px;
+    background: #f6f6f6;
+    height: 40px;
+    width: 215px;
+    transition: background 0.25s;
+}
+.search-input{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #12372A;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+
+}
+.search-input::placeholder,
+.search-icon{
+    color: #12372A;
 }

@@ -1,81 +1,75 @@
-/* Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Style the navigation bar */
-nav {
-  background-color: #333;
-}
-
-.navbar {
+.book-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
 }
 
-.logo a {
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
+.book {
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-}
-
-.nav-links li {
-  margin-right: 20px;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Style the dropdown menu */
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content form {
-  padding: 15px;
-}
-
-.dropdown-content input[type="text"],
-.dropdown-content input[type="password"],
-.dropdown-content button {
-  display: block;
-  margin-bottom: 10px;
+.book img {
   width: 100%;
-  padding: 8px;
+  height: auto;
 }
 
-.dropdown-content button {
-  background-color: #333;
-  color: white;
+.details {
+  margin-top: 10px;
+}
+
+.details h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.details p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.details a {
+  display: block;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 0;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.details a:hover {
+  background-color: #0056b3;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comments h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comments textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.comments button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 20px;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.dropdown-content button:hover {
-  background-color: #555;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+.comments button:hover {
+  background-color: #0056b3;
 }
