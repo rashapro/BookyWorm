@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background: #FDF4F5;
+    background: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
-    background-color: #BA90C6;
+    background-color: #165A54;
     color: white;
     display: flex;
     padding: 10px 20px;
@@ -22,7 +22,7 @@ nav .navbar {
 }
 
 .logo a {
-    color: #FDF4F5;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -34,10 +34,9 @@ nav .navbar {
     font-weight: bold;
 }
 .dropdown {
-
     display: none;
     position: absolute;
-    background-color: #C0DBEA;
+    background-color: #797b7c;
     border: 1px solid #12372A;
     z-index: 1;
 }
@@ -50,11 +49,11 @@ nav .navbar {
 .dropdown a {
     display: block;
     padding: 10px;
-    color: #f2ffb2;
+    color: #91Da73;
     text-decoration: none;
 }
 .dropdown a:hover {
-    background-color: #E8A0BF;
+    background-color: #91Da73;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -68,14 +67,14 @@ nav .navbar {
     margin: 0 10px;
 }
 .nav-links a {
-    color: #FDF4F5;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 .nav-links a:hover {
-    color: #f2ffb2;
+    color: #91Da73;
 }
 
 
@@ -173,7 +172,7 @@ nav .navbar {
 }
 
 .search{
-    --padding: 2px;
+    --padding: 5px;
     margin-left: 500px;
     display: flex;
     align-items: center;
@@ -185,9 +184,9 @@ nav .navbar {
     transition: background 0.25s;
 }
 .search-input{
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #9f9f9f;
+    color: #12372A;
     margin-left: var(--padding);
     outline: none;
     border: none;
@@ -196,23 +195,21 @@ nav .navbar {
 }
 .search-input::placeholder,
 .search-icon{
-    color: #7d7d7d;
+    color: #12372A;
 }
 
 #sign-up {
   font-weight: bolder;
 }
 
-#login {
-    align-items: end;
-    font-weight: bolder;
-}
-
 .book-container{
-    background-color: #C0DBEA;
-    margin: auto;
-    width: 700px;
+    background-color: paleturquoise;
+    width: 900px;
     height: 300px;
-    color: #;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
 }
