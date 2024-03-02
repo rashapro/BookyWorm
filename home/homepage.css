@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background:#C6DCBA;
+    background:#ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav {
@@ -25,7 +25,7 @@ nav .navbar{
 .logo a {
     color: #12372A;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: bold;
 }
 .dropdown {
