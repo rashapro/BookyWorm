@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: #EAECCC;
+    background-color: #165A54;
     color: white;
     display: flex;
     padding: 10px 20px;
@@ -22,19 +22,19 @@ nav .navbar {
 }
 
 .logo a {
-    color: #12372A;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 }
 
 .logo a {
-    color: #12372A;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
 }
 .dropdown {
+    margin-top: 32px;
     display: none;
     position: absolute;
     background-color: #FBFADA;
@@ -50,11 +50,11 @@ nav .navbar {
 .dropdown a {
     display: block;
     padding: 10px;
-    color: #436850;
+    color: #91Da73;
     text-decoration: none;
 }
 .dropdown a:hover {
-    background-color: #BBC3A4;
+    background-color: #91Da73;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -68,7 +68,7 @@ nav .navbar {
     margin: 0 10px;
 }
 .nav-links a {
-    color: #12372A;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
